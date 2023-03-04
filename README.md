@@ -2,7 +2,7 @@
 
 # Create Node module
 
-$ yarn i
+$ yarn install
 
 # Run start project
 

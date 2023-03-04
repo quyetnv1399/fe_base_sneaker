@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./css/admin-page.css";
+import "../css/admin-page.css";
 import {
   MenuFoldOutlined,
   MenuUnfoldOutlined,
