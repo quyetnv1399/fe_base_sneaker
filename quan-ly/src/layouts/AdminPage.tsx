@@ -3,9 +3,7 @@ import "./css/admin-page.css";
 import {
   MenuFoldOutlined,
   MenuUnfoldOutlined,
-  FileOutlined,
   PieChartOutlined,
-  TeamOutlined,
   AppstoreAddOutlined,
 } from "@ant-design/icons";
 import type { MenuProps } from "antd";

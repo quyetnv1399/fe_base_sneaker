@@ -13,3 +13,7 @@ $ yarn start
 $ yarn add antd
 
 $ npm install --save @ant-design/icons
+
+# Từ khóa tự load component 
+
+rafce + tab

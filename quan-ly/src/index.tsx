@@ -1,27 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import NotFound from "./page/NotFound";
-import AdminPage from "./layouts/AdminPage";
-import Products from "./page/component/Products";
+import Routers from "./routers";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<AdminPage />}>
-          <Route path="/products" element={<Products />}></Route>
-          <Route path="*" element={<NotFound />}></Route>
-        </Route>
-      </Routes>
-      <App />
-    </BrowserRouter>
+    <Routers />
   </React.StrictMode>
 );
 
